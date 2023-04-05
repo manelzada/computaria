@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const eventTime = moment("2023-04-10 10:00:00");
+      const eventTime = moment("2023-04-13 10:00:00");
       const currentTime = moment();
       const diffTime = eventTime.diff(currentTime);
       const duration = moment.duration(diffTime);
