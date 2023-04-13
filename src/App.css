@@ -19,6 +19,13 @@ a {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
+  animation: fade-count 3s;
+  animation-fill-mode: both;
+}
+
+@keyframes fade-count {
+  from { opacity: 1; }
+  to { opacity: 0.01; }
 }
 
 .App .countdown {
@@ -32,7 +39,16 @@ a {
 .App img {
   width: 50%;
   position: absolute;
-  opacity: 0.1;
+  animation: fade-in 3s;
+}
+
+.message {
+  position: absolute;
+}
+
+@keyframes fade-in {
+  from { opacity: 0.1; }
+  to { opacity: 1; }
 }
 
 

@@ -49,6 +49,10 @@ function App() {
           00
         </div>
       </div>
+      <div className="message">
+        <h2>Computaria is back</h2>
+        <p>Confira nas nossas redes sociais</p>
+      </div>
       <div className="icons">
         <a href="https://www.instagram.com/atleticacompuesb/">
         <AiFillInstagram />
